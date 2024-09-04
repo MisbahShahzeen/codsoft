@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4a3b2c; /* Dark brown text color */
+    line-height: 1.6;
+    background-color: #f8f4f1; /* Light beige background */
+}
+
+header {
+    background: linear-gradient(to right, #6d4c41, #8c5e3c); /* Gradient from medium to dark brown */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #e3d8c4; /* Light beige border for separation */
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold; /* Add emphasis to the name */
+    font-family: 'Georgia', serif; /* Elegant font for the name */
+}
+
+header .logo p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff; /* White background for sections */
+    border-radius: 8px; /* Rounded corners for sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for sections */
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #6d4c41; /* Medium brown border */
+    margin-right: 20px;
+}
+
+.bio p {
+    max-width: 600px;
+    font-size: 1.1em;
+    color: #4a3b2c; /* Dark brown text color */
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    background: #e3d8c4; /* Light beige background for skills */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #4a3b2c; /* Dark brown text color */
+}
+
+#projects .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    background: #fefcf9; /* Very light beige background for project cards */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    margin: 10px 0;
+    color: #6d4c41; /* Medium brown text color */
+}
+
+#resume a {
+    color: #6d4c41; /* Medium brown link color */
+    text-decoration: none;
+}
+
+#resume a:hover {
+    text-decoration: underline;
+}
+
+#contact p {
+    margin: 10px 0;
+    color: #4a3b2c; /* Dark brown text color */
+}
+
+footer {
+    background: linear-gradient(to right, #6d4c41, #8c5e3c); /* Gradient from medium to dark brown */
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    border-top: 4px solid #e3d8c4; /* Light beige border for separation */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    font-size: 0.9em; /* Slightly smaller font size for the footer */
+}
